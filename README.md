@@ -1,6 +1,4 @@
-# BankInterface
+# UI Clone - Bank App
 
-UI Clone - Bank App
-
-Features
-Material Design
+**Features**
+*Material Design *Google Icons
