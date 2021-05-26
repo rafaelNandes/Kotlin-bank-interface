@@ -1,4 +1,5 @@
 # UI Clone - Bank App
 
 **Features**
-*Material Design *Google Icons
+* Cards - Material Design 
+* Icons - Google Fonts
