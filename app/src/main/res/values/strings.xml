@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">Bankinterface</string>
+    <string name="app_name">BankInterface</string>
     <string name="balance">Saldo disponível</string>
-    <string name="balanceLimit">Saldo + Limite:</string>
-    <string name="viewExtract">Ver extrato</string>
+    <string name="balance_limit">Saldo + Limite:</string>
+    <string name="view_extract">Ver extrato</string>
+    <string name="pay">Pagar</string>
+    <string name="transfer">Transferir</string>
+    <string name="cell">Recarregar</string>
+    <string name="final_card">Cartão Final:</string>
+
 </resources>

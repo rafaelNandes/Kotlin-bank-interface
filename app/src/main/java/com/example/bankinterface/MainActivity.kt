@@ -22,10 +22,7 @@ class MainActivity : AppCompatActivity() {
     //Escutar se há evendo nos itens do menu
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-                R.id.item_1 -> {Log.d("CLICK","Clicou no item 1")
-                    true
-                }
-                R.id.item_2 -> {Log.d("CLICK","Clicou no item 2")
+                R.id.notification_item -> {Log.d("CLICK","Clicou no item de notificação")
                     true
                 }
                 else -> super.onOptionsItemSelected(item)
