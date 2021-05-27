@@ -1,4 +1,3 @@
 package com.example.bankinterface.data
 
-class Client {
-}
+data class Client (val name: String)

@@ -1,4 +1,22 @@
 package com.example.bankinterface.data.local
 
-class localData {
+import com.example.bankinterface.data.Account
+import com.example.bankinterface.data.Card
+import com.example.bankinterface.data.Client
+
+class LocalData {
+    fun getLocalData() : Account {
+        val client = Client("Rafael")
+        val card = Card("0020")
+
+        val account = Account(
+            "Cc: 01098654-9",
+            "Ag: 2031",
+            "R$ 4.894,00",
+            "R$ 9.456,00",
+            client,
+            card
+        )
+        return account
+    }
 }

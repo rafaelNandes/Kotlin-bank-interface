@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -31,14 +31,24 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/textView_helloUser"
+        android:id="@+id/textView_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Olá, Rafael"
+        android:text="@string/hello"
         android:textColor="@color/white"
         android:layout_margin="16dp"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_clientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rafael"
+        android:textColor="@color/white"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintStart_toEndOf="@id/textView_hello"
+        app:layout_constraintTop_toTopOf="@id/textView_hello"/>
 
     <TextView
         android:id="@+id/textView_agency"
@@ -48,8 +58,8 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@id/textView_helloUser"
-        app:layout_constraintStart_toStartOf="@id/textView_helloUser" />
+        app:layout_constraintTop_toBottomOf="@id/textView_hello"
+        app:layout_constraintStart_toStartOf="@id/textView_hello" />
 
     <TextView
         android:id="@+id/textView_currentAccount"
@@ -293,7 +303,7 @@
         app:layout_constraintStart_toStartOf="@id/ImageView_finalCard" />
 
     <TextView
-        android:id="@+id/textView_CardFinalNumber"
+        android:id="@+id/textView_cardFinalNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0047"
