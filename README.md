@@ -2,6 +2,12 @@
 
 
 
+**Applied Pattern**
+
+* MVVM
+
+
+
 **View**
 
 * Cards - [Material Design](https://material.io/design) 
