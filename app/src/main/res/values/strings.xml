@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">BankInterface</string>
     <string name="hello">Olá,</string>
+    <string name="agency">Ag:</string>
+    <string name="currentAccount">Cc:</string>
+    <string name="currency">R$</string>
     <string name="balance">Saldo disponível</string>
     <string name="balance_limit">Saldo + Limite:</string>
     <string name="view_extract">Ver extrato</string>

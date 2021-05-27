@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
     private fun searchAccountClient () {
         mainViewModel.searchAccountClient().observe(this, Observer { result ->
             findViewById<TextView>(R.id.textView_clientName).text = result.client.name
-            findViewById<TextView>(R.id.textView_agency).text = result.agency
-            findViewById<TextView>(R.id.textView_currentAccount).text = result.account
+            findViewById<TextView>(R.id.textView_agencyNumber).text = result.agency
+            findViewById<TextView>(R.id.textView_currentAccountNumber).text = result.account
             findViewById<TextView>(R.id.textView_balanceValue).text = result.balance
             findViewById<TextView>(R.id.textView_balanceLimitValue).text = result.limit
             findViewById<TextView>(R.id.textView_cardFinalNumber).text = result.card.finalCardNumber

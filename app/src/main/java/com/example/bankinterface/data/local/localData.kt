@@ -10,10 +10,10 @@ class LocalData {
         val card = Card("0020")
 
         val account = Account(
-            "Cc: 01098654-9",
-            "Ag: 2031",
-            "R$ 4.894,00",
-            "R$ 9.456,00",
+            "01098654-9",
+            "2031",
+            "4.894,00",
+            "9.456,00",
             client,
             card
         )

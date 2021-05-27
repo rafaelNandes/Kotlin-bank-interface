@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BankInterface</string>
+    <string name="hello">Hi,</string>
+    <string name="agency">Agcy:</string>
+    <string name="currentAccount">Ca:</string>
+    <string name="currency">$</string>
+    <string name="balance">Balance available</string>
+    <string name="balance_limit">Balance + Limit:</string>
+    <string name="view_extract">View extract</string>
+    <string name="pay">Pay</string>
+    <string name="transfer">Transfer</string>
+    <string name="cell">Recharge</string>
+    <string name="final_card">Final Card:</string>
+</resources>
