@@ -4,7 +4,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        jcenter()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.2.1"
@@ -15,9 +14,6 @@ buildscript {
 
         //Crashlytics Gradle Plugin
         classpath 'com.google.firebase:firebase-crashlytics-gradle:2.5.2'
-
-        //Performance Monitoring Plugin
-        classpath 'com.google.firebase:perf-plugin:1.4.0'
     }
 }
 

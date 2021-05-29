@@ -2,21 +2,21 @@
 
 
 
-
+&nbsp;
 
 **Applied Pattern**
 
 * MVVM
 
-
+&nbsp;
 
 
 
 **Integration**
 
-* [Firebase](https://console.firebase.google.com/) (Analytics, Crashlytics and Performance)
+* [Firebase](https://console.firebase.google.com/) (Analytics and Crashlytics)
 
-
+&nbsp;
 
 
 
@@ -25,7 +25,7 @@
 * Cards - [Material Design](https://material.io/design) 
 * Icons - [Google Fonts](https://fonts.google.com/icons)
 
-
+&nbsp;
 
 
 
@@ -43,9 +43,9 @@ Add to build.gradle(Module):
 
 Others dependences in [Firebase Documentation](https://firebase.google.com/docs/):
 
-* Firebase SDK, Analytics, Crashlytics and Performance
+* Firebase SDK, Analytics and Crashlytics
 
-
+&nbsp;
 
 
 
