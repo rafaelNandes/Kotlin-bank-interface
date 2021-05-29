@@ -32,7 +32,14 @@ android {
     }
 }
 
+//Apply Google Services
 apply plugin: 'com.google.gms.google-services'
+
+//Apply Crashlytics Gradle Plugin
+apply plugin: 'com.google.firebase.crashlytics'
+
+// Apply the Performance Monitoring Plugin
+apply plugin: 'com.google.firebase.firebase-perf'
 
 dependencies {
 
@@ -50,8 +57,14 @@ dependencies {
     //Firebase BoM
     implementation platform('com.google.firebase:firebase-bom:28.0.1')
 
+    //Firebase Crashlytics
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+
     //Firebase SDK for Google Analytics
     implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    //Firebase Performance Monitoring
+    implementation 'com.google.firebase:firebase-perf-ktx'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

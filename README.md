@@ -2,17 +2,23 @@
 
 
 
+
+
 **Applied Pattern**
 
 * MVVM
 
 
 
+
+
 **Integration**
 
-* Firebase
+* [Firebase](https://console.firebase.google.com/) (Analytics, Crashlytics and Performance)
 
-  
+
+
+
 
 **View Components**
 
@@ -21,9 +27,11 @@
 
 
 
+
+
 **Dependences**
 
-Add to build.gradle(Module)
+Add to build.gradle(Module):
 
 * Lifecycle components
   
@@ -32,21 +40,12 @@ Add to build.gradle(Module)
   * implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
   * implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
   * implementation "androidx.lifecycle:lifecycle-common-java8:2.2.0"
-  
-* Firebase SDK and Analytics:
 
-  * apply plugin: 'com.google.gms.google-services'
+Others dependences in [Firebase Documentation](https://firebase.google.com/docs/):
 
-    In dependences:
+* Firebase SDK, Analytics, Crashlytics and Performance
 
-  * implementation platform('com.google.firebase:firebase-bom:28.0.1')
 
-  * implementation 'com.google.firebase:firebase-analytics-ktx'
-
-Add to build.gradle(Project)
-
-* Firebase SDK
-  * classpath 'com.google.gms:google-services:4.3.8'
 
 
 
